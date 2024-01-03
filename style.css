@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Playfair Display', serif;
+    margin: auto;
+    width: 1980px;
+}
+* {
+    padding:0px;
+    margin:0px 0px;
+
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    display:flex;
+    justify-content:space-between;
+    padding: 40px 170px;
+}
+    nav ul {
+        display: flex;
+        gap: 40px;
+        font-size: 18px;
+        height: 24px;
+        font-weight: 700;
+        line-height: 23.99px;
+        
+    }
+    nav ul a {
+        color: #3A3A3A;
+    }
+
+.logo {
+    
+    height: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.99px;
+    color: #000000;
+}
+span {
+    color:#3C7D36 ;
+}
+image {
+    max-width: 100%;
+}
+/* section 1 kaj start */
+.sec-container {
+    background-color: #3C7D36;
+}
+/* section 3 ba main section er kaj akorte hoba  */
+.recentpost {
+    color: #3A3A3A;
+    width: 467px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47.99px;
+}
+h5 {
+    height: 21px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21.33px;
+    color: #959595;
+}
+h2 {
+    height: 70px;
+    font-size: 24px;
+    font-weight: 700;
+    color:#3A3A3A ;
+}
+p {
+    height: 93px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.33px;
+}
+.readmore {
+    width: 87px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.99px;
+    color:#3C7D36 ;
+    display: inline-block;
+    
+}
+h4 {
+    height: 48px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.99px;
+    color: #3A3A3A;
+}
+.post1 {
+    width: 351px;
+    height: 488px;
+    background-color:#34722F26;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 25px;
+    /* margin-right: 20px; */
+    
+}
+.post1 p {
+    color: #666666;
+}
+.post2 {
+    width: 351px;
+    height: 488px;
+    background-color:#34722F26;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 25px;
+    
+}
+.post1 p {
+    color: #666666;
+}
+ /* Sidebar cSSSS Property Section 1 */
+
+ .sidebar-post1 {
+    display: flex;
+    margin: 25px 0px;
+ }
+ .sidebar-content {
+    display: flex;
+    flex-direction: column;
+    width: 233px;
+    /* height: 48px; */
+    font-weight: 400;
+    font-size: 18px;
+    box-sizing: border-box;
+    gap: 1px;
+ }
+ /* .sidebar-btn {
+    text-align: left;
+    margin-top: 5px;
+ } */
+ .last {
+    display: flex;
+    gap: 240px;
+ }
+ /* Green section CSS Start */
+ .green {
+    background-color:#3C7D36 ;
+    padding: 20px;
+    margin-top: 90px;
+    
+ }
+ .wrapper {
+    display:flex ;
+    justify-content: center;
+    gap: 250px;
+ }
+ .yummy-blog {
+    width: 309px;
+    box-sizing: border-box;
+ }
+ .yummy-blog p {
+    color: #F4F4F4;
+    margin-top: 20px;
+    width: 309px;
+    height: 126px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.99px;
+    box-sizing: border-box;
+ }
+ .yummy-blog  h3 {
+    color: #FFFFFF;
+    width: 208px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47.99px;
+ }
+ .Contact ul a {
+    color:#E3E3E3 ;
+    height: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.99px;
+ }
+ .ancore {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px 0px;
+ }
+ .icon {
+    gap: 20px;
+    padding: 20px 0px;
+    display: flex;
+ }
+ .Contact h3 {
+    height: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.99px;
+    color:#FFFFFF ;
+ }
+ .footer{
+    background-color: #000000;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 30px 0;
+ }
+ 
